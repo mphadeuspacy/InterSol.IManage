@@ -3,9 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data Access Layer", "Data Access Layer", "{B5B2683F-BD94-467F-BE06-F37E8D53F4C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterSol.IManage.Data", "InterSol.IManage.Data\InterSol.IManage.Data.csproj", "{DF4D06A9-3614-4BCB-9214-36DD3F47898F}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF4D06A9-3614-4BCB-9214-36DD3F47898F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF4D06A9-3614-4BCB-9214-36DD3F47898F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF4D06A9-3614-4BCB-9214-36DD3F47898F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF4D06A9-3614-4BCB-9214-36DD3F47898F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DF4D06A9-3614-4BCB-9214-36DD3F47898F} = {B5B2683F-BD94-467F-BE06-F37E8D53F4C8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F7FA4762-5DA7-46E6-8A5B-7D80726D97DA}
