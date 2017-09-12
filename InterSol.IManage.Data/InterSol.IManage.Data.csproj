@@ -49,6 +49,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstracts\IRepository.cs" />
+    <Compile Include="Abstracts\IRepositoryFactory.cs" />
+    <Compile Include="Abstracts\UnitOfWork.cs" />
+    <Compile Include="Concretes\GenericRepository.cs" />
+    <Compile Include="Concretes\GenericRepositoryFactory.cs" />
+    <Compile Include="Concretes\IManageUnitOfWork.cs" />
     <Compile Include="Databases\Account.cs">
       <DependentUpon>IManageDb.tt</DependentUpon>
     </Compile>
